@@ -1,0 +1,6 @@
+<?php
+	include_once('session.php');
+	session_destroy();
+	unset($_SESSION['username']);
+	header('Location: index.php');
+?>
