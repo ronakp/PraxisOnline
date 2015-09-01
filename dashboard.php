@@ -8,7 +8,7 @@
   {
     $username = $_SESSION['username'];
     include_once('constants.php');
-    $query = mysqli_query($con, "SELECT * FROM ad_6b7a5f33fb3780b.campaign where username = '$username'");
+    $query = mysqli_query($con, "SELECT * FROM campaign where username = '$username'");
   }
 ?>
 <!DOCTYPE html>
@@ -35,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://praxisonline.mybluemix.net/dashboard.php">Praxis</a>
+          <a class="navbar-brand" href="http://praxis.ronakp.net/dashboard.php">Praxis</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">

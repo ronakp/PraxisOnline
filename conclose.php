@@ -1,3 +1,3 @@
 <?php 
-db2_close($con);
+mysql_close($con);
 ?>

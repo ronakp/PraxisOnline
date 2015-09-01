@@ -9,7 +9,7 @@
 			
 			$password = $_POST['password'];
 			
-			$access = mysqli_query($con,"SELECT * FROM ad_6b7a5f33fb3780b.user WHERE (username = '$username') AND (password = '$password')");
+			$access = mysqli_query($con,"SELECT * FROM user WHERE (username = '$username') AND (password = '$password')");
 			
 			$accessrow = mysqli_num_rows($access);
 			
